@@ -1,9 +1,8 @@
 import enum
 
 
-class APIPaths(enum.Enum):
-    USERS = "/users"
-    POSTS = "/posts"
+class APIParams(enum.Enum):
+    USER_ID = "userId"
 
     def __str__(self) -> str:
         return self.value

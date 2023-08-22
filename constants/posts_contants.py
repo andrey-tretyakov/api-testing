@@ -1,0 +1,1 @@
+VALID_POSTS_RANGE = range(1, 100)
