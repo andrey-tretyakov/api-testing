@@ -1,5 +1,5 @@
 # api-testing
-365scores QA Automation Engineer Technical Assignment
+QA Automation Engineer Technical Assignment
 
 [Allure report](https://andrey-tretyakov.github.io/api-testing/)
 
