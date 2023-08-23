@@ -4,6 +4,8 @@ from urllib.parse import urljoin
 import allure
 import requests
 
+from config import base_config
+
 logger = logging.getLogger(__name__)
 
 
@@ -28,5 +30,5 @@ class Client:
         return requests.post(url, data, json, **kwargs)
 
 
-def get_client(base_url="https://jsonplaceholder.typicode.com"):
+def get_client(base_url=base_config.base_url):
     return Client(base_url)
