@@ -8,7 +8,7 @@ from api.endpoints.posts_api import get_posts_by_user_id, make_post
 from api.endpoints.users_api import get_user_by_id
 from models.posts_models import PostRequest
 from utils.assertions import check_status_code
-from utils.random_utils import generate_number_in_range
+from utils.random_utils import generate_number_in_range, generate_word
 
 user_id = generate_number_in_range()
 
@@ -27,7 +27,7 @@ class TestRestApi:
         for post in json_response:
             _check_post_id(post["id"])
 
-        post = PostRequest(userId=user_id, title="Some", body="some")
+        post = PostRequest(userId=user_id, title=generate_word(), body=generate_word())
         response = make_post(post)
         check_status_code(response.status_code, HTTPStatus.CREATED)
 
