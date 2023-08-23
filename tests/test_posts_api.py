@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 import allure
 
-from framework.api.posts_api import get_posts_by_user_id, make_post
+from api.endpoints.posts_api import get_posts_by_user_id, make_post
 from models.posts_models import Post, PostRequest
 from utils.assertions import check_status_code
 from utils.random_utils import generate_number_in_range

@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 import allure
 
-from framework.api.users_api import get_user_by_id
+from api.endpoints.users_api import get_user_by_id
 from models.users_models import User
 from utils.assertions import check_status_code
 from utils.random_utils import generate_number_in_range

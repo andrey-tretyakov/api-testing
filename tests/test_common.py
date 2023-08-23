@@ -4,8 +4,8 @@ import allure
 from hamcrest import assert_that, is_in
 
 from constants.posts_contants import VALID_POSTS_RANGE
-from framework.api.posts_api import get_posts_by_user_id, make_post
-from framework.api.users_api import get_user_by_id
+from api.endpoints.posts_api import get_posts_by_user_id, make_post
+from api.endpoints.users_api import get_user_by_id
 from models.posts_models import PostRequest
 from utils.assertions import check_status_code
 from utils.random_utils import generate_number_in_range

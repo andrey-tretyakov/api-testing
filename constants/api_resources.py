@@ -1,7 +1,7 @@
 import enum
 
 
-class APIPaths(enum.Enum):
+class APIResources(enum.Enum):
     USERS = "/users"
     POSTS = "/posts"
 
