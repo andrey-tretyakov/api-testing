@@ -1,0 +1,348 @@
+{
+  "uid" : "9e332a3ebac4303f",
+  "name" : "Get posts by user_id",
+  "fullName" : "tests.test_posts_api.TestPostsApi#test_get_posts_by_user_id",
+  "historyId" : "2688ab24f4de7fe524c83fdce1e8421a",
+  "time" : {
+    "start" : 1692790761290,
+    "stop" : 1692790761724,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get posts by user_id = '8'",
+      "time" : {
+        "start" : 1692790761291,
+        "stop" : 1692790761668,
+        "duration" : 377
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Do GET request to ''/posts''",
+        "time" : {
+          "start" : 1692790761292,
+          "stop" : 1692790761667,
+          "duration" : 375
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "'/posts'"
+        }, {
+          "name" : "params",
+          "value" : "{'userId': 8}"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user_id",
+        "value" : "8"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Check status code",
+      "time" : {
+        "start" : 1692790761669,
+        "stop" : 1692790761669,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "<HTTPStatus.OK: 200>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761673,
+        "stop" : 1692790761678,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 71, 'title': 'et iusto veniam et illum aut fuga', 'body': 'occaecati a doloribus\\niste saepe consectetur placeat eum voluptate dolorem et\\nqui quo quia voluptas\\nrerum ut id enim velit est perferendis'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761679,
+        "stop" : 1692790761681,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 72, 'title': 'sint hic doloribus consequatur eos non id', 'body': 'quam occaecati qui deleniti consectetur\\nconsequatur aut facere quas exercitationem aliquam hic voluptas\\nneque id sunt ut aut accusamus\\nsunt consectetur expedita inventore velit'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761682,
+        "stop" : 1692790761688,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 73, 'title': 'consequuntur deleniti eos quia temporibus ab aliquid at', 'body': 'voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\\naut eum minima consequatur\\ntempore cumque quae est et\\net in consequuntur voluptatem voluptates aut'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761689,
+        "stop" : 1692790761691,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 74, 'title': 'enim unde ratione doloribus quas enim ut sit sapiente', 'body': 'odit qui et et necessitatibus sint veniam\\nmollitia amet doloremque molestiae commodi similique magnam et quam\\nblanditiis est itaque\\nquo et tenetur ratione occaecati molestiae tempora'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761691,
+        "stop" : 1692790761693,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 75, 'title': 'dignissimos eum dolor ut enim et delectus in', 'body': 'commodi non non omnis et voluptas sit\\nautem aut nobis magnam et sapiente voluptatem\\net laborum repellat qui delectus facilis temporibus\\nrerum amet et nemo voluptate expedita adipisci error dolorem'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761694,
+        "stop" : 1692790761696,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 76, 'title': 'doloremque officiis ad et non perferendis', 'body': 'ut animi facere\\ntotam iusto tempore\\nmolestiae eum aut et dolorem aperiam\\nquaerat recusandae totam odio'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761697,
+        "stop" : 1692790761699,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 77, 'title': 'necessitatibus quasi exercitationem odio', 'body': 'modi ut in nulla repudiandae dolorum nostrum eos\\naut consequatur omnis\\nut incidunt est omnis iste et quam\\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761700,
+        "stop" : 1692790761703,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 78, 'title': 'quam voluptatibus rerum veritatis', 'body': 'nobis facilis odit tempore cupiditate quia\\nassumenda doloribus rerum qui ea\\nillum et qui totam\\naut veniam repellendus'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761703,
+        "stop" : 1692790761712,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 79, 'title': 'pariatur consequatur quia magnam autem omnis non amet', 'body': 'libero accusantium et et facere incidunt sit dolorem\\nnon excepturi qui quia sed laudantium\\nquisquam molestiae ducimus est\\nofficiis esse molestiae iste et quos'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Validate schema",
+      "time" : {
+        "start" : 1692790761713,
+        "stop" : 1692790761717,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "instance",
+        "value" : "{'userId': 8, 'id': 80, 'title': 'labore in ex et explicabo corporis aut quas', 'body': 'ex quod dolorem ea eum iure qui provident amet\\nquia qui facere excepturi et repudiandae\\nasperiores molestias provident\\nminus incidunt vero fugit rerum sint sunt excepturi provident'}"
+      }, {
+        "name" : "schema",
+        "value" : "{'type': 'object', 'required': ['userId', 'id', 'title', 'body'], 'properties': {'userId': {'type': 'integer'}, 'id': {'type': 'integer'}, 'title': {'type': 'string'}, 'body': {'type': 'string'}}, 'description': 'Post(userId: int, id: int, title: str, body: str)', '$schema': 'http://json-schema.org/draft-06/schema#'}"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "c748269c5c1a39f5",
+      "name" : "log",
+      "source" : "c748269c5c1a39f5.txt",
+      "type" : "text/plain",
+      "size" : 79
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Posts API"
+  }, {
+    "name" : "feature",
+    "value" : "Posts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_posts_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostsApi"
+  }, {
+    "name" : "host",
+    "value" : "AndrewPC"
+  }, {
+    "name" : "thread",
+    "value" : "10172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_posts_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e332a3ebac4303f.json",
+  "parameterValues" : [ ]
+}

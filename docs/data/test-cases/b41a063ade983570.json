@@ -1,0 +1,141 @@
+{
+  "uid" : "b41a063ade983570",
+  "name" : "Make post",
+  "fullName" : "tests.test_posts_api.TestPostsApi#test_make_post",
+  "historyId" : "3da36ffa225334231addfd58a7b04e1b",
+  "time" : {
+    "start" : 1692790760703,
+    "stop" : 1692790761274,
+    "duration" : 571
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Make post",
+      "time" : {
+        "start" : 1692790760704,
+        "stop" : 1692790761268,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Do POST request to ''/posts''",
+        "time" : {
+          "start" : 1692790760704,
+          "stop" : 1692790761268,
+          "duration" : 564
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "'/posts'"
+        }, {
+          "name" : "data",
+          "value" : "'{\"userId\": 8, \"title\": \"Some\", \"body\": \"some\"}'"
+        }, {
+          "name" : "json",
+          "value" : "None"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "post",
+        "value" : "PostRequest(userId=8, title='Some', body='some')"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "Check status code",
+      "time" : {
+        "start" : 1692790761269,
+        "stop" : 1692790761269,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "<HTTPStatus.CREATED: 201>"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "a970caca3c332e54",
+      "name" : "log",
+      "source" : "a970caca3c332e54.txt",
+      "type" : "text/plain",
+      "size" : 80
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Posts API"
+  }, {
+    "name" : "feature",
+    "value" : "Posts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_posts_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPostsApi"
+  }, {
+    "name" : "host",
+    "value" : "AndrewPC"
+  }, {
+    "name" : "thread",
+    "value" : "10172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_posts_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b41a063ade983570.json",
+  "parameterValues" : [ ]
+}

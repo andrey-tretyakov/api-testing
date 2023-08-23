@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Aug 23 14:39:18 MSK 2023","Wed Aug 23 14:39:19 MSK 2023","566","tests","test_users_api","TestUsersApi","","","Get user by id",""
+"passed","Wed Aug 23 14:39:21 MSK 2023","Wed Aug 23 14:39:21 MSK 2023","434","tests","test_posts_api","TestPostsApi","","","Get posts by user_id",""
+"passed","Wed Aug 23 14:39:19 MSK 2023","Wed Aug 23 14:39:20 MSK 2023","1340","tests","test_common","TestRestApi","","","Common test",""
+"passed","Wed Aug 23 14:39:20 MSK 2023","Wed Aug 23 14:39:21 MSK 2023","571","tests","test_posts_api","TestPostsApi","","","Make post",""

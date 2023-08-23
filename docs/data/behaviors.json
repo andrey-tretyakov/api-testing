@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Users",
+    "children" : [ {
+      "name" : "Users API",
+      "children" : [ {
+        "name" : "Get user by id",
+        "uid" : "caf6f9bbfe2133cd",
+        "parentUid" : "bca27df7cb1d222bc27a652ea01f9f1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790758746,
+          "stop" : 1692790759312,
+          "duration" : 566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bca27df7cb1d222bc27a652ea01f9f1c"
+    } ],
+    "uid" : "8233a41300bd5d5bd2551cb8ccf39969"
+  }, {
+    "name" : "REST API",
+    "children" : [ {
+      "name" : "REST API",
+      "children" : [ {
+        "name" : "Common test",
+        "uid" : "9b05454f595c47ca",
+        "parentUid" : "ff7469229a6bc82aecd3d81df3cff1ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790759340,
+          "stop" : 1692790760680,
+          "duration" : 1340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff7469229a6bc82aecd3d81df3cff1ff"
+    } ],
+    "uid" : "766df82e2110e20816b972a70fd32312"
+  }, {
+    "name" : "Posts",
+    "children" : [ {
+      "name" : "Posts API",
+      "children" : [ {
+        "name" : "Make post",
+        "uid" : "b41a063ade983570",
+        "parentUid" : "6c7766a6e2c974e64403cdd5c3b6c67a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790760703,
+          "stop" : 1692790761274,
+          "duration" : 571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get posts by user_id",
+        "uid" : "9e332a3ebac4303f",
+        "parentUid" : "6c7766a6e2c974e64403cdd5c3b6c67a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790761290,
+          "stop" : 1692790761724,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c7766a6e2c974e64403cdd5c3b6c67a"
+    } ],
+    "uid" : "7ec7673d1ba6344d2ca50d9893192ad1"
+  } ]
+}

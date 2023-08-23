@@ -1,0 +1,41 @@
+[ {
+  "uid" : "caf6f9bbfe2133cd",
+  "name" : "Get user by id",
+  "time" : {
+    "start" : 1692790758746,
+    "stop" : 1692790759312,
+    "duration" : 566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e332a3ebac4303f",
+  "name" : "Get posts by user_id",
+  "time" : {
+    "start" : 1692790761290,
+    "stop" : 1692790761724,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b05454f595c47ca",
+  "name" : "Common test",
+  "time" : {
+    "start" : 1692790759340,
+    "stop" : 1692790760680,
+    "duration" : 1340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b41a063ade983570",
+  "name" : "Make post",
+  "time" : {
+    "start" : 1692790760703,
+    "stop" : 1692790761274,
+    "duration" : 571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

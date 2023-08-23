@@ -1,0 +1,1 @@
+[2023-08-23 14:39:21] Get request to https://jsonplaceholder.typicode.com/posts

@@ -1,0 +1,65 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "AndrewPC",
+    "children" : [ {
+      "name" : "10172-MainThread",
+      "children" : [ {
+        "name" : "Make post",
+        "uid" : "b41a063ade983570",
+        "parentUid" : "03885a84841b1a529853869caa75e4ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790760703,
+          "stop" : 1692790761274,
+          "duration" : 571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get posts by user_id",
+        "uid" : "9e332a3ebac4303f",
+        "parentUid" : "03885a84841b1a529853869caa75e4ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790761290,
+          "stop" : 1692790761724,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Common test",
+        "uid" : "9b05454f595c47ca",
+        "parentUid" : "03885a84841b1a529853869caa75e4ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790759340,
+          "stop" : 1692790760680,
+          "duration" : 1340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Get user by id",
+        "uid" : "caf6f9bbfe2133cd",
+        "parentUid" : "03885a84841b1a529853869caa75e4ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1692790758746,
+          "stop" : 1692790759312,
+          "duration" : 566
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03885a84841b1a529853869caa75e4ce"
+    } ],
+    "uid" : "7a5a06bdeb0f646b1ae6c71d56ff7fde"
+  } ]
+}
